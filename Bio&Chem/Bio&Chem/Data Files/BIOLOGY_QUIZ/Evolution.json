@@ -1,0 +1,62 @@
+[
+    {
+        "question": "The 2 types of competition",
+        "answer": "Interspecific Competition (Different Species); Intraspecific Competition (Competition of the same species due to change in resource abundance)",
+        "index": 0
+    },
+    {
+        "question": "The 2 Types of Succession",
+        "answer": "Primary Succession (Newly formed or exposed land there is NO SOIL or organic matter); Secondary Succession (Land that has been recently cleared of all plants and ONLY SOIL REMAINS)",
+        "index": 1
+    },
+    {
+        "question": "Define succession",
+        "answer": "The process by which an ecosystem changes over time",
+        "index": 2
+    },
+    {
+        "question": "Primary Succession",
+        "answer": "Primary Succession starts when a new species colonises, known as the pioneer species; At the start abiotic conditions are very harsh and only the pioneer species is able to grow as these are often specifically adapted to the conditions; The pioneer species changes the abiotic conditions to make them less hostile (by dying being decomposed into humus and form a basic soil layer).",
+        "index": 3
+    },
+    {
+        "question": "Secondary Succession",
+        "answer": "The less hostile conditions mean newer larger organisms/plants can survive these again make the conditions less hostile; This process continues at each stage the conditions become less hostile and allow more complex species to grow and outcompete the previous; The final species is called the climax community, this is when the ecosystem is supporting the largest most complex organisms.",
+        "index": 4
+    },
+    {
+        "question": "Define evolution in genetic terms",
+        "answer": "The change in the relative frequency of alleles in the gene pool of a population due to Natural Selection (and genetic drift).",
+        "index": 5
+    },
+    {
+        "question": "The 3 types of Natural Selection",
+        "answer": "Stabilising Selection (favours middle); Directional Selection (favours one extreme); Disruptive Selection (favours either extreme)",
+        "index": 6
+    },
+    {
+        "question": "What are the two types of Speciation",
+        "answer": "Allopatric Speciation; Sympatric Speciation",
+        "index": 7
+    },
+    {
+        "question": "What is Genetic Drift",
+        "answer": "A change in allele frequencies caused by random events (chance one allele is passed on)",
+        "index": 8
+    },
+    {
+        "question": "Genetic Diversity",
+        "answer": "The number of different alleles of genes in a species or population.",
+        "index": 9
+    },
+    {
+        "question": "Genetic Bottleneck",
+        "answer": "a sudden reduction in the number of alleles in a population (decrease in the size of gene pool)",
+        "index": 10
+    },
+    {
+        "question": "The Founders Effect",
+        "answer": "genetic drift often occurs after a genetic bottleneck and is a result of very low genetic diversity and a very small initial gene pool",
+        "index": 11
+    }
+]

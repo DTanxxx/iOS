@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0656C924AFB44400E71556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0656C824AFB44400E71556 /* AppDelegate.swift */; };
+		2D0656CB24AFB44400E71556 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D0656CA24AFB44400E71556 /* GameScene.sks */; };
+		2D0656CF24AFB44400E71556 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0656CE24AFB44400E71556 /* GameScene.swift */; };
+		2D0656D124AFB44400E71556 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0656D024AFB44400E71556 /* GameViewController.swift */; };
+		2D0656D424AFB44400E71556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0656D224AFB44400E71556 /* Main.storyboard */; };
+		2D0656D624AFB44C00E71556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0656D524AFB44C00E71556 /* Assets.xcassets */; };
+		2D0656D924AFB44C00E71556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0656D724AFB44C00E71556 /* LaunchScreen.storyboard */; };
+		2D0656E124AFB6B000E71556 /* TileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D0656E024AFB6B000E71556 /* TileSet.sks */; };
+		2D962B7424B2DB6500104579 /* GameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D962B7324B2DB6500104579 /* GameItem.swift */; };
+		2D962B7624B2DB8600104579 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D962B7524B2DB8600104579 /* Unit.swift */; };
+		2D962B7824B2DB9E00104579 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D962B7724B2DB9E00104579 /* Base.swift */; };
+		2D962B7A24B31CA800104579 /* CGPoint+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D962B7924B31CA800104579 /* CGPoint+Additions.swift */; };
+		2DA3157C24B5BB0600032D2D /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2DA3157924B5BB0500032D2D /* Smoke.sks */; };
+		2DA3157D24B5BB0600032D2D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA3157A24B5BB0500032D2D /* spark.png */; };
+		2DA3157E24B5BB0600032D2D /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2DA3157B24B5BB0600032D2D /* Fire.sks */; };
+		2DDA82AF24B433D3001D26AB /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDA82AE24B433D3001D26AB /* Array+Additions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D0656C524AFB44400E71556 /* DeadStormRising.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeadStormRising.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0656C824AFB44400E71556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D0656CA24AFB44400E71556 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2D0656CE24AFB44400E71556 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2D0656D024AFB44400E71556 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2D0656D324AFB44400E71556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D0656D524AFB44C00E71556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D0656D824AFB44C00E71556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D0656DA24AFB44C00E71556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0656E024AFB6B000E71556 /* TileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TileSet.sks; sourceTree = "<group>"; };
+		2D962B7324B2DB6500104579 /* GameItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameItem.swift; sourceTree = "<group>"; };
+		2D962B7524B2DB8600104579 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		2D962B7724B2DB9E00104579 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		2D962B7924B31CA800104579 /* CGPoint+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Additions.swift"; sourceTree = "<group>"; };
+		2DA3157924B5BB0500032D2D /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		2DA3157A24B5BB0500032D2D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		2DA3157B24B5BB0600032D2D /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		2DDA82AE24B433D3001D26AB /* Array+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Additions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0656C224AFB44400E71556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0656BC24AFB44400E71556 = {
+			isa = PBXGroup;
+			children = (
+				2D0656C724AFB44400E71556 /* DeadStormRising */,
+				2D0656C624AFB44400E71556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0656C624AFB44400E71556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0656C524AFB44400E71556 /* DeadStormRising.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0656C724AFB44400E71556 /* DeadStormRising */ = {
+			isa = PBXGroup;
+			children = (
+				2DA3157F24B5BB2500032D2D /* Particles */,
+				2DDA82AD24B433BE001D26AB /* Extensions */,
+				2DDA82AC24B3AE3A001D26AB /* Models */,
+				2D0656C824AFB44400E71556 /* AppDelegate.swift */,
+				2D0656CA24AFB44400E71556 /* GameScene.sks */,
+				2D0656E024AFB6B000E71556 /* TileSet.sks */,
+				2D0656CE24AFB44400E71556 /* GameScene.swift */,
+				2D0656D024AFB44400E71556 /* GameViewController.swift */,
+				2D0656D224AFB44400E71556 /* Main.storyboard */,
+				2D0656D524AFB44C00E71556 /* Assets.xcassets */,
+				2D0656D724AFB44C00E71556 /* LaunchScreen.storyboard */,
+				2D0656DA24AFB44C00E71556 /* Info.plist */,
+			);
+			path = DeadStormRising;
+			sourceTree = "<group>";
+		};
+		2DA3157F24B5BB2500032D2D /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				2DA3157B24B5BB0600032D2D /* Fire.sks */,
+				2DA3157924B5BB0500032D2D /* Smoke.sks */,
+				2DA3157A24B5BB0500032D2D /* spark.png */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		2DDA82AC24B3AE3A001D26AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D962B7324B2DB6500104579 /* GameItem.swift */,
+				2D962B7724B2DB9E00104579 /* Base.swift */,
+				2D962B7524B2DB8600104579 /* Unit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2DDA82AD24B433BE001D26AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2D962B7924B31CA800104579 /* CGPoint+Additions.swift */,
+				2DDA82AE24B433D3001D26AB /* Array+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0656C424AFB44400E71556 /* DeadStormRising */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0656DD24AFB44C00E71556 /* Build configuration list for PBXNativeTarget "DeadStormRising" */;
+			buildPhases = (
+				2D0656C124AFB44400E71556 /* Sources */,
+				2D0656C224AFB44400E71556 /* Frameworks */,
+				2D0656C324AFB44400E71556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeadStormRising;
+			productName = DeadStormRising;
+			productReference = 2D0656C524AFB44400E71556 /* DeadStormRising.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0656BD24AFB44400E71556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = LearnAppMaking;
+				TargetAttributes = {
+					2D0656C424AFB44400E71556 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 2D0656C024AFB44400E71556 /* Build configuration list for PBXProject "DeadStormRising" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0656BC24AFB44400E71556;
+			productRefGroup = 2D0656C624AFB44400E71556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0656C424AFB44400E71556 /* DeadStormRising */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0656C324AFB44400E71556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0656D424AFB44400E71556 /* Main.storyboard in Resources */,
+				2D0656CB24AFB44400E71556 /* GameScene.sks in Resources */,
+				2D0656D624AFB44C00E71556 /* Assets.xcassets in Resources */,
+				2DA3157D24B5BB0600032D2D /* spark.png in Resources */,
+				2D0656D924AFB44C00E71556 /* LaunchScreen.storyboard in Resources */,
+				2DA3157E24B5BB0600032D2D /* Fire.sks in Resources */,
+				2D0656E124AFB6B000E71556 /* TileSet.sks in Resources */,
+				2DA3157C24B5BB0600032D2D /* Smoke.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0656C124AFB44400E71556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D962B7824B2DB9E00104579 /* Base.swift in Sources */,
+				2DDA82AF24B433D3001D26AB /* Array+Additions.swift in Sources */,
+				2D962B7624B2DB8600104579 /* Unit.swift in Sources */,
+				2D0656CF24AFB44400E71556 /* GameScene.swift in Sources */,
+				2D962B7A24B31CA800104579 /* CGPoint+Additions.swift in Sources */,
+				2D0656D124AFB44400E71556 /* GameViewController.swift in Sources */,
+				2D962B7424B2DB6500104579 /* GameItem.swift in Sources */,
+				2D0656C924AFB44400E71556 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D0656D224AFB44400E71556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0656D324AFB44400E71556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D0656D724AFB44C00E71556 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0656D824AFB44C00E71556 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D0656DB24AFB44C00E71556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D0656DC24AFB44C00E71556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0656DE24AFB44C00E71556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR9PL4C5TR;
+				INFOPLIST_FILE = DeadStormRising/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnappmaking.DeadStormRising;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2D0656DF24AFB44C00E71556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR9PL4C5TR;
+				INFOPLIST_FILE = DeadStormRising/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnappmaking.DeadStormRising;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0656C024AFB44400E71556 /* Build configuration list for PBXProject "DeadStormRising" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0656DB24AFB44C00E71556 /* Debug */,
+				2D0656DC24AFB44C00E71556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0656DD24AFB44C00E71556 /* Build configuration list for PBXNativeTarget "DeadStormRising" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0656DE24AFB44C00E71556 /* Debug */,
+				2D0656DF24AFB44C00E71556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D0656BD24AFB44400E71556 /* Project object */;
+}

@@ -1,0 +1,257 @@
+[
+    {
+        "question": "Where do the light-dependent reactions take place",
+        "answer": "thylakoid membrane",
+        "index": 0
+    },
+    {
+        "question": "1st stage of light dependent reaction",
+        "answer": "Photolysis (Water moves in to the thylakoid and is broken down into H+ ions Oxygen and electrons)",
+        "index": 1
+    },
+    {
+        "question": "2nd stage of light dependant reactions",
+        "answer": "Photoionisation (When a photo of light hits the chlorophyll molecule at photosystem 2 it 'excites' the electrons, these high energy electrons then move down the electron transport chain)",
+        "index": 2
+    },
+    {
+        "question": "3rd stage of light dependant reactions",
+        "answer": "Electron Transport Chain (The high energy electron move through the thylakoid membrane via a series of carrier proteins which act as proton pumps, using the energy from the electrons to actively transport H+ ions into the thylakoid membrane).",
+        "index": 3
+    },
+    {
+        "question": "4th stage of light dependant reactions",
+        "answer": "Chemiosmosis via ATP Synthase (Facilitated diffusion of H+ ions out of the thylakoid via ATP Synthase causing it to spin and this movement allows ATP to be synthesised)",
+        "index": 4
+    },
+    {
+        "question": "5th stage of light dependant reactions",
+        "answer": "Re-exicted Electrons (Another photon of light hits the chlorophyll molecule at photosystem 1 causing the electrons to be re-excited, these high energy electrons are then picked up by a molecule of NADP+ forming a molecule of Reduced NADP)",
+        "index": 5
+    },
+    {
+        "question": "Products of light dependent reactions",
+        "answer": "ATP (used in Clavin Cycle); Reduced NADP (used in Clavin Cycle); Oxygen (used in Respiration or released as waste product)",
+        "index": 6
+    },
+    {
+        "question": "The Process of the Calvin Cycle",
+        "answer": "RuBP (a 5 carbon compound) is combined with a molecule of Carbon Dioxide forming 2 molecules of GP, catalysed by the enzyme Rubisco. GP is then reduced into TP using (2x) ATP and (2x) Reduced NADP. From the (2x) TP molecules 1 carbon is used to make useful organic substances (glucose) the other 5 carbons are recycled into RuBP using an ATP molecule",
+        "index": 7
+    },
+    {
+        "question": "Where does the Calvin cycle occur",
+        "answer": "The stroma of the chloroplast",
+        "index": 8
+    },
+    {
+        "question": "Where does glycolysis occur",
+        "answer": "The cytoplasm",
+        "index": 9
+    },
+    {
+        "question": "1st Stage of Glycolysis",
+        "answer": "Phosphorylation: Glucose is phosphorylated forming Hexose Bisphosphate (this use 2 ATP molecules). The Hexose Bisphosphate molecule then splits into (2x) TP molecules.",
+        "index": 10
+    },
+    {
+        "question": "2nd Stage of Glycolysis",
+        "answer": "Oxidation: The (2x) TP molecules are oxidised forming (2x) Pyruvate molecules. This produces (2x) Reduced NAD and (4x) ATP",
+        "index": 11
+    },
+    {
+        "question": "Anaerobic Respiration in Animals",
+        "answer": "Lactate Fermentation (Pyruvate is converted into Lactate reforming NAD+ from Reduced NAD)",
+        "index": 12
+    },
+    {
+        "question": "Anaerobic Respiration in Plants",
+        "answer": "Alcoholic Fermentation (Pyruvate is first converted into Ethanal producing Carbon Dioxide then into Ethanol reforming NAD+ form Reduced NAD)",
+        "index": 13
+    },
+    {
+        "question": "Where do the link reaction and Krebs cycle take place",
+        "answer": "The matrix of the mitochondria",
+        "index": 14
+    },
+    {
+        "question": "Process of the Link Reactions",
+        "answer": "Pyruvate is decarboxylated. Its is oxidised to form Acetate which also produced Reduced NAD. Acetate is combined with co-enzyme A to from Acetyl CoA",
+        "index": 15
+    },
+    {
+        "question": "Process of Krebs Cycle",
+        "answer": "Acetyl CoA combines with Oxyloacetate to form Citrate and the CoA is recycled back into the link reactions. Citrate undergoes decarboxylation and dehydrogenisation. The 5 carbon compound undergoes decarboxylation and dehydrogenation again. During the conversion from 5 carbon to 4 carbon substate level phosphorylation occurs producing ATP. Oxyloacetate is Reformed.",
+        "index": 16
+    },
+    {
+        "question": "Products of the Krebs cycle and their uses",
+        "answer": "CoA - Recycled in Link Reaction; 2 x Carbon Dioxide - Released as waste; 1 x ATP - Used for energy; 3 x Reduced NAD - Used in ETC; 1 x Reduced FAD - Used in ETC",
+        "index": 17
+    },
+    {
+        "question": "1st Stage of the ETC",
+        "answer": "Oxidation (Reduced NAD/FAD are oxidised releasing H+ ions and electrons)",
+        "index": 18
+    },
+    {
+        "question": "2nd Stage of the ETC",
+        "answer": "ETC (The Electrons from the hydrogen atoms move down the ETC through a series of transport proteins)",
+        "index": 19
+    },
+    {
+        "question": "3rd Stage of the ETC",
+        "answer": "Proton Pumps (Energy from the electrons is used by the proteins to actively transport H+ ions from the matrix into the intermembrane space Proton Pumps)",
+        "index": 20
+    },
+    {
+        "question": "4th Stage of the ETC",
+        "answer": "Chemiosmosis (An electrochemical gradient is formed causing H+ ions to move by facilitated diffusion back into the matrix via ATP synthase causing it to spin)",
+        "index": 21
+    },
+    {
+        "question": "5th Stage of the ETC",
+        "answer": "ATP Synthesis (The movement of ATP synthase allows for ATP to be synthesised from ADP and Pi)",
+        "index": 22
+    },
+    {
+        "question": "6th Stage of the ETC",
+        "answer": "Final Electron Aceptor (In the matrix H+ ions combine with oxygen and electrons to form a water molecule, hence oxygen is known as the final electron acceptor)",
+        "index": 23
+    },
+    {
+        "question": "What is the model for plasma membranes",
+        "answer": "Fluid Mosaic Model (The phospholipid bilayer is described as 'fluid' as the molecules are constantly moving)",
+        "index": 24
+    },
+    {
+        "question": "Function of cholesterol in plasma membranes",
+        "answer": "Fit between phospholipids and they bind together the fatty acid tails, this packs the phospholipids closer together restricting their movement making the bilayer 'less fluid'.",
+        "index": 25
+    },
+    {
+        "question": "What are Channel Proteins",
+        "answer": "Transport proteins that have a water-filled hydrophilic channel that certain molecules/ions use as a tunnel through the membrane as ions are charged so they cannot pass directly through the membrane.",
+        "index": 26
+    },
+    {
+        "question": "What are Carrier Proteins",
+        "answer": "A specialised membrane proteins that change shape when a certain molecule binds releasing the molecule on the other side on the membrane (No ATP required)",
+        "index": 27
+    },
+    {
+        "question": "Function of glycoproteins in plasma membrane",
+        "answer": "Made of a carbohydrate bound to a protein and these act as cell surface receptors allowing cells to be recognised and to join to each other.",
+        "index": 28
+    },
+    {
+        "question": "Structure and function of the Nucleus",
+        "answer": "A large organelle surrounded by a double membrane called the nuclear envelope. The Nucleolus makes Ribosomes. Contains genetic information in the form of chromosomes",
+        "index": 29
+    },
+    {
+        "question": "Structure of Chloroplasts",
+        "answer": "Small flattered structure found in plant and algae cells. They have a double membrane. They contain thylakoid membranes, which are stacked to form grana.",
+        "index": 30
+    },
+    {
+        "question": "Structure and function of the Golgi apparatus",
+        "answer": "A group of fluid-filled flattered sacs with vesicles often found at the edges. Process and packages lipids and proteins and then vesicles transport them out of the cell",
+        "index": 31
+    },
+    {
+        "question": "Structure and function of Lysosomes",
+        "answer": "A round organelle surrounded by a plasma membrane with no clear internal structure. Can contain digestive enzymes",
+        "index": 32
+    },
+    {
+        "question": "Structure of Mitochondria",
+        "answer": "Oval shaped with a double membrane, inner membrane is folded to form Cristae",
+        "index": 33
+    },
+    {
+        "question": "Structure and function of the RER",
+        "answer": "A system of fluid filled membrane bound sacs. Surface is covered in ribosomes. Fold and processes proteins",
+        "index": 34
+    },
+    {
+        "question": "Structure and function of the SER",
+        "answer": "Similar structure to RER but with no ribosomes. Synthesises and processes lipids",
+        "index": 35
+    },
+    {
+        "question": "Structure and function of the Cell Wall",
+        "answer": "A rigid structure that surround plant, algae and fungal and bacteria cells. In plants and algae this is made of cellulose. In fungal this is made of chitin. In bacteria this is made of murein",
+        "index": 36
+    },
+    {
+        "question": "Structure and function of Vacuoles",
+        "answer": "A membrane bound sac found in the organelle surrounded by the TONOPLAST (a plasma membrane). It contains cell sap (a weak salt and sugar solutions). Important in maintain cells pressure and in the isolation of unwanted chemicals",
+        "index": 37
+    },
+    {
+        "question": "Structure and function of Ribosomes",
+        "answer": "Organelles made of rRNA and protein. Found bound to the endoplasmic reticulum and free floating in the cytoplasm. Sites of protein synthesis",
+        "index": 38
+    },
+    {
+        "question": "Differences between Prokaryotic and Eukaryotic Cells",
+        "answer": "Prokaryotic cells don't have a nucleus; Prokaryotic cells have circular DNA and no histone proteins; Prokaryotic cells have plasmids; Prokaryotic cells have no membrane-bound organelles; Prokaryotic cells have a Murein Cell wall; Prokaryotic cells have 70s ribosomes compared to 80s in eukaryotes",
+        "index": 39
+    },
+    {
+        "question": "What happens in the G1 phase of interphase?",
+        "answer": "Growth. New Proteins & Organelles Made",
+        "index": 40
+    },
+    {
+        "question": "What happens in the S phase?",
+        "answer": "DNA synthesis (or replication) occurs during this phase. At the beginning of the phase, each chromosome is single. At the end, after DNA replication, each chromosome consists of two sister chromatids.",
+        "index": 41
+    },
+    {
+        "question": "What happens in the G2 phase of interphase?",
+        "answer": "Organelles (centrioles) and molecules for cell division are synthesised",
+        "index": 42
+    },
+    {
+        "question": "Prophase",
+        "answer": "DNA condenses to form chromosomes, the nuclear membrane breaks down and centrioles move to opposite poles of the cell forming spindle fibres",
+        "index": 43
+    },
+    {
+        "question": "Metaphase",
+        "answer": "The chromosomes line up across the center of the cell. Each chromosome is connected to a spindle fiber at its centromere.",
+        "index": 44
+    },
+    {
+        "question": "Anaphase",
+        "answer": "Centromeres divide and sister chromatids separate and the spindle fibres contract pulling the individual chromatids to the opposite poles of the cell.",
+        "index": 45
+    },
+    {
+        "question": "Telophase",
+        "answer": "Individual chromatids reach the opposite poles of the cell and then un-condense and the nuclear envelopes form producing to separate nuclei",
+        "index": 46
+    },
+    {
+        "question": "Cytokinesis",
+        "answer": "The division of the cytoplasm to form two separate daughter cells (final stage of the cell cycle)",
+        "index": 47
+    },
+    {
+        "question": "Totipotent Stem Cells",
+        "answer": "Can differentiate to become any specialised cell INCLUDING the CELLS OF THE PLACENTA.",
+        "index": 48
+    },
+    {
+        "question": "Pluripotent Stem Cells",
+        "answer": "Can differentiate to become any specialised cell EXCEPT the CELLS OF THE PLACENTA.",
+        "index": 49
+    },
+    {
+        "question": "Multipotent Stem Cells",
+        "answer": "Can differentiate to become a few types of specialised cells.",
+        "index": 50
+    }
+]

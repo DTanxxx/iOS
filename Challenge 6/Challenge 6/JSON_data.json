@@ -1,0 +1,86 @@
+{
+    "countries": [
+        {
+            "name": "China",
+            "capital": "Beijing",
+            "population": "1.4 billion",
+            "size": "9,600,000 square kilometers",
+            "currency": "Yuan",
+            "food": ["Dumplings", "Noodles", "Rice"]
+        },
+        {
+            "name": "New Zealand",
+            "capital": "Wellington",
+            "population": "4.9 million",
+            "size": "268,000 square kilometers",
+            "currency": "NZD",
+            "food": ["Steak, Chips, Mussle, Lobster"]
+        },
+        {
+            "name": "USA",
+            "capital": "Washington",
+            "population": "327 million",
+            "size": "9,800,000 square kilometers",
+            "currency": "USD",
+            "food": ["Hamburger", "Hotdog", "Steak", "Cheese"]
+        },
+        {
+            "name": "Japan",
+            "capital": "Tokyo",
+            "population": "126 million",
+            "size": "377,973 square kilometers",
+            "currency": "Yen",
+            "food": ["Sushi", "Salmon", "Everything"]
+        },
+        {
+            "name": "India",
+            "capital": "New Delhi",
+            "population": "1,211 million",
+            "size": "3,287,263 square kilometers",
+            "currency": "Rupee",
+            "food": ["Curry", "Curry", "Curry"]
+        },
+        {
+            "name": "Britain",
+            "capital": "Unknown",
+            "population": "000 million",
+            "size": "000,000 square kilometers",
+            "currency": "DOLLAR",
+            "food": ["Bread", "Meat", "Bread"]
+        },
+        {
+            "name": "Canada",
+            "capital": "Unknown",
+            "population": "000 million",
+            "size": "000,000 square kilometers",
+            "currency": "DOLLAR",
+            "food": ["Bread", "Butter", "Bread"]
+        },
+        {
+            "name": "Brazil",
+            "capital": "Rio",
+            "population": "0,000 million",
+            "size": "0,000,000 square kilometers",
+            "currency": "DOLLAR",
+            "food": ["Candy", "Ice cream", "Popcorn"]
+        },
+        {
+            "name": "France",
+            "capital": "Oui",
+            "population": "Oui",
+            "size": "Oui",
+            "currency": "Oui",
+            "food": ["Croissant", "Croisssant", "Croissssant"]
+        },
+        {
+            "name": "Spain",
+            "capital": "Ce",
+            "population": "Ce",
+            "size": "Ce",
+            "currency": "Ce",
+            "food": ["Hola", "Despacito"]
+        }
+    ]
+}
+
+

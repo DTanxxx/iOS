@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Challenge_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpv-Db-dNA">
+                                <rect key="frame" x="334.5" y="64" width="59.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0B7-An-xpg">
+                                <rect key="frame" x="20" y="64" width="59.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xc-8M-sSd">
+                                <rect key="frame" x="62" y="194" width="290" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tap on a letter" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fW8-36-C9l">
+                                <rect key="frame" x="80" y="289" width="254" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OK1-X6-av9">
+                                <rect key="frame" x="70" y="393" width="62" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Submit"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nU4-oX-gQa">
+                                <rect key="frame" x="283" y="393" width="61" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Cancel"/>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cYI-6j-Rbh">
+                                <rect key="frame" x="47" y="449" width="320" height="360"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="gHT-dq-1fY"/>
+                                    <constraint firstAttribute="height" constant="360" id="qLw-eL-aHY"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="04g-cf-xt2">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="estimatedItemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Alphabet" id="fWW-aP-fP9" customClass="LetterCell" customModule="Challenge_4" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UM5-oe-4YX">
+                                                    <rect key="frame" x="0.0" y="0.0" width="48" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <size key="customSize" width="50" height="50"/>
+                                        <connections>
+                                            <outlet property="letterLabel" destination="UM5-oe-4YX" id="V0D-Dc-3y3"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="nU4-oX-gQa" firstAttribute="top" secondItem="fW8-36-C9l" secondAttribute="bottom" constant="50" id="0t1-gt-OBV"/>
+                            <constraint firstItem="9xc-8M-sSd" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="1aZ-s8-UIs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nU4-oX-gQa" secondAttribute="trailing" constant="70" id="4YZ-hU-rFq"/>
+                            <constraint firstItem="9xc-8M-sSd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ku1-gY-Tnf"/>
+                            <constraint firstItem="9xc-8M-sSd" firstAttribute="top" secondItem="hpv-Db-dNA" secondAttribute="bottom" constant="100" id="N6g-kz-Csc"/>
+                            <constraint firstItem="OK1-X6-av9" firstAttribute="top" secondItem="fW8-36-C9l" secondAttribute="bottom" constant="50" id="PpK-yd-DlR"/>
+                            <constraint firstItem="cYI-6j-Rbh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YId-HM-lk8"/>
+                            <constraint firstItem="fW8-36-C9l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cFQ-1Q-y1P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hpv-Db-dNA" secondAttribute="trailing" constant="20" id="cU0-Az-18Q"/>
+                            <constraint firstItem="0B7-An-xpg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="k8E-Hi-UL6"/>
+                            <constraint firstItem="9xc-8M-sSd" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="lEA-4m-uAd"/>
+                            <constraint firstItem="fW8-36-C9l" firstAttribute="top" secondItem="9xc-8M-sSd" secondAttribute="bottom" constant="50" id="rPL-xb-3hR"/>
+                            <constraint firstItem="hpv-Db-dNA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="whV-1z-hqD"/>
+                            <constraint firstItem="cYI-6j-Rbh" firstAttribute="top" secondItem="OK1-X6-av9" secondAttribute="bottom" constant="20" id="ypI-Ld-bEZ"/>
+                            <constraint firstItem="OK1-X6-av9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="zZi-IR-D6D"/>
+                            <constraint firstItem="0B7-An-xpg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zzC-6C-gwe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="nU4-oX-gQa" id="RvP-7c-QVY"/>
+                        <outlet property="collectionView" destination="cYI-6j-Rbh" id="N9R-Vi-T3r"/>
+                        <outlet property="incorrectWordsLabel" destination="0B7-An-xpg" id="m5a-e8-9sh"/>
+                        <outlet property="scoreLabel" destination="hpv-Db-dNA" id="kxv-ae-ztU"/>
+                        <outlet property="submitButton" destination="OK1-X6-av9" id="WSV-dA-bH5"/>
+                        <outlet property="textField" destination="fW8-36-C9l" id="MkW-Kg-m56"/>
+                        <outlet property="wordLabel" destination="9xc-8M-sSd" id="cKL-F2-nvu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="119.86607142857142"/>
+        </scene>
+    </scenes>
+</document>

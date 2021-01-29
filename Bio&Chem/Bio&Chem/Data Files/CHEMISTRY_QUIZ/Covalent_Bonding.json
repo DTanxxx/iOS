@@ -1,0 +1,47 @@
+[
+    {
+        "question": "Linear Geometry",
+        "answer": "sp; Bonding Pairs: 2; Lone Pairs: 0",
+        "index": 0
+    },
+    {
+        "question": "Trigonal Planar Geometry",
+        "answer": "sp2; Bonding Pairs: 3; Lone Pairs: 0 or Bonding Pairs: 2; Lone Pairs: 1",
+        "index": 1
+    },
+    {
+        "question": "Tetrahedral Geometry",
+        "answer": "sp3; Bonding Pairs: 4; Lone Pairs: 0 or Bonding Pairs: 3; Lone Pairs: 1 or Bonding Pairs: 2; Lone Pairs: 2",
+        "index": 2
+    },
+    {
+        "question": "Trigonal Bipyramidal Geometry",
+        "answer": "Bonding pairs and lone pairs add up to 5",
+        "index": 3
+    },
+    {
+        "question": "Octahedral Geometry",
+        "answer": "Bonding pairs and lone pairs add up to 6",
+        "index": 4
+    },
+    {
+        "question": "Isoelectronic",
+        "answer": "Same electron configuration/ number of electrons",
+        "index": 5
+    },
+    {
+        "question": "As more atoms surround a central atom, what happens to bond angle?",
+        "answer": "It increases",
+        "index": 6
+    },
+    {
+        "question": "How many pi bonds are in a triple bond?",
+        "answer": "two",
+        "index": 7
+    },
+    {
+        "question": "Quantum numbers",
+        "answer": "n can have whole number values: 1, 2, 3,...; For every value of n, ℓ can have integer values from 0 to (n-1); m can have any whole number value, including zero, from -ℓ to +ℓ; s can be either +½ or -½",
+        "index": 8
+    }
+]

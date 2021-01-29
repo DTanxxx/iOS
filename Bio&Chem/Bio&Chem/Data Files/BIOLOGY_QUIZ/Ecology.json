@@ -1,0 +1,47 @@
+[
+    {
+        "question": "1st Stage of thew Nitrogen Cycle",
+        "answer": "Nitrogen Fixation (The process of atmospheric nitrogen being turned into nitrogen canting compounds, this can be done by mutualistic bacteria)",
+        "index": 0
+    },
+    {
+        "question": "2nd Stage of thew Nitrogen Cycle",
+        "answer": "Ammonification (The process of nitrogen containing compounds in dead organic matter being turned into ammonium ions by Saprobionts)",
+        "index": 1
+    },
+    {
+        "question": "3rd Stage of thew Nitrogen Cycle",
+        "answer": "Nitrification (The conversion of Ammonium ions to Nitrile Ions to Nitrate Ions by Nitrifying bacteria)",
+        "index": 2
+    },
+    {
+        "question": "4th Stage of thew Nitrogen Cycle",
+        "answer": "Denitrification (The process of Nitrate ions being converted into nitrogen gas, this occurs when denitrifying bacteria respire anaerobically)",
+        "index": 3
+    },
+    {
+        "question": "Importance of Mycorrhizae",
+        "answer": "A mutualistic relationship between of fungi and roots of plants to increase the surface area which allows plants to live in mineral-poor environment.",
+        "index": 4
+    },
+    {
+        "question": "What is a symbiotic relationship",
+        "answer": "A relationship where both organisms benefit",
+        "index": 5
+    },
+    {
+        "question": "food chain",
+        "answer": "Primary Producer - Primary consumer -Secondary Consumer - Tertiary Consumer",
+        "index": 6
+    },
+    {
+        "question": "Equation for Net Primary Production",
+        "answer": "NPP = GPP - R",
+        "index": 7
+    },
+    {
+        "question": "Equation for Net Production",
+        "answer": "N = I - (F + R)",
+        "index": 8
+    }
+]

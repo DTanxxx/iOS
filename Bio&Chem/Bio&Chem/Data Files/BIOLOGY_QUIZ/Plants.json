@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Gas Exchange in Plants",
+        "answer": "Stomata allows gases to go in and out of the leaf; Air spaces in the spongy mesophyll cells increase the SA and reduces the diffusion distance",
+        "index": 0
+    },
+    {
+        "question": "How do stomata open and close",
+        "answer": "Stomata open when turgid because the inside wall of the guard cells is thicker than the outside wall therefore the tugor pressure causes the cell to bend opening the stomata. Stomata close when flaccid as there is no tugor pressure to cause the guard cells to bend",
+        "index": 1
+    },
+    {
+        "question": "What are xylem vessels made from",
+        "answer": "Very long tube-like structures that are formed of dead cells with NO END WALLS",
+        "index": 2
+    },
+    {
+        "question": "What is Transpiration",
+        "answer": "When water evaporated from cells in the leaf into air spaces in the spongy mesophyll and leaves through the stomata",
+        "index": 3
+    },
+    {
+        "question": "Process of the Transpiration Stream",
+        "answer": "Transpiration occurs. This creates tension/suction which 'pulls' water into the leaf to replace the water lost. Water molecules are cohesive so the movement of one molecule cause the entire column of water to move up the xylem from the root where it enters the plant",
+        "index": 4
+    }
+]

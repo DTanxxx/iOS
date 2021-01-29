@@ -1,0 +1,47 @@
+[
+    {
+        "question": "Conjugate bases that make a salt neutral",
+        "answer": "Cl-, Br-, I-, NO3-, ClO3-, ClO4-",
+        "index": 0
+    },
+    {
+        "question": "Conjugate acids that make a salt netural",
+        "answer": "Li+, Na+, K+, Rb+, Cs+, Ca2+, Sr2+, and Ba2+",
+        "index": 1
+    },
+    {
+        "question": "Strong acids",
+        "answer": "HCl, HBr, HI, HNO3, HClO3, HClO4, H2SO4",
+        "index": 2
+    },
+    {
+        "question": "Strong bases",
+        "answer": "Group 1 metal hydroxides, Ca(OH)2, Sr(OH)2, Ba(OH)2",
+        "index": 3
+    },
+    {
+        "question": "Oxoacid strength",
+        "answer": "The more oxygen atoms per hydrogen, the stronger the acid",
+        "index": 4
+    },
+    {
+        "question": "Anhydride",
+        "answer": "Compound that becomes an acid or base when added to water. They can also react with bases or acids to form water and a salt.",
+        "index": 5
+    },
+    {
+        "question": "Polyprotic Acids",
+        "answer": "Very weak acids with multiple H+",
+        "index": 6
+    },
+    {
+        "question": "Conjugate Pairs",
+        "answer": "Conjugate acid --> Conjugate Base + H+",
+        "index": 7
+    },
+    {
+        "question": "Buffer solution",
+        "answer": "Aqueous solution with conjugate base and conjugate acid. ACID MUST BE WEAK!",
+        "index": 8
+    }
+]

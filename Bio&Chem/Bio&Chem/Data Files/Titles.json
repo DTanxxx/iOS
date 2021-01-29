@@ -1,0 +1,88 @@
+[
+    {
+        "topic": "Molecules",
+        "chapters": {
+            "Biological Chemistry": 0,
+            "Carbohydrates": 1,
+            "Proteins": 2,
+            "Lipids": 3,
+            "Nucleic Acids": 4
+        }
+    },
+    {
+        "topic": "Cell",
+        "chapters": {
+            "Cellular Components": 0,
+            "Cell Membrane": 1,
+            "Cellular Respiration": 2,
+            "Photosynthesis": 3,
+            "Cell Cycle": 4
+        }
+    },
+    {
+        "topic": "Genetics",
+        "chapters": {
+            "Meiosis": 0,
+            "Chromosomal Basis of Inheritance": 1,
+            "Molecular Basis of Inheritance": 2,
+            "Gene Expression and Regulation": 3,
+            "Viruses": 4,
+            "DNA Tools and Biotechnology": 5
+        }
+    },
+    {
+        "topic": "Evolution",
+        "chapters": {
+            "Descent with Modifications": 0,
+            "Evolution of Populations": 1,
+            "Origin of Species": 2
+        }
+    },
+    {
+        "topic": "Diversity",
+        "chapters": {
+            "Bacteria and Archaea": 0,
+            "Protists": 1,
+            "Fungi": 2,
+            "Animal Diversity": 3
+        }
+    },
+    {
+        "topic": "Plants",
+        "chapters": {
+            "Plant Structure, Growth, Development": 0,
+            "Resource Acquisition and Transport": 1,
+            "Plant Nutrition": 2,
+            "Angiosperm Resproduction": 3,
+            "Plant Hormones": 4
+        }
+    },
+    {
+        "topic": "Animals",
+        "chapters": {
+            "Muscular System": 0,
+            "Nervous System": 1,
+            "Circulatory System": 2,
+            "Respiratory System": 3,
+            "Immune System": 4,
+            "Hormones and Endocrine System": 5,
+            "Digestive System": 6,
+            "Excretory System": 7,
+            "Animal Reproduction and Development": 8,
+            "Animal Behaviour": 9
+        }
+    },
+    {
+        "topic": "Ecology",
+        "chapters": {
+            "Ecology and Biosphere": 0,
+            "Population Ecology": 1,
+            "Community Ecology": 2,
+            "Ecosystem Ecology": 3
+        }
+    }
+]
+
+
+
+

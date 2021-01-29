@@ -1,0 +1,28 @@
+{
+  "managers": {
+    "Bob": {
+      "age": 43,
+      "likes": "donuts"
+    },
+    "Joe": {
+      "age": 12,
+      "likes": "pizza",
+      "employees": {
+        "Mike": true,
+        "Sandra": true
+      }
+    }
+  },
+  "employees": {
+    "Sandra": {
+      "age": 23,
+      "role": "writer",
+      "likes": "smoothies"
+    },
+    "Mike": {
+      "age": 29,
+      "role": "designer",
+      "likes": "ramen"
+    }
+  }
+}

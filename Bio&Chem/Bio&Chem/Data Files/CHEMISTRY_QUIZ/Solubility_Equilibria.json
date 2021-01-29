@@ -1,0 +1,17 @@
+[
+    {
+        "question": "Solubility Rules (Soluble)",
+        "answer": "Sodium, potassium, ammonium, and nitrate salts are soluble; Salts with CH3COO- and ClO4- are soluble; All bromides, chorides, and iodides are soluble, except those with Pb2+, Ca2+, Sr2+, and Ba2+; All salts with SO42- are soluble, except those with Pb2+, Ca2+, Sr2+, and Ba2+",
+        "index": 0
+    },
+    {
+        "question": "Solubility Rules (Insoluble)",
+        "answer": "Compounds with CO32- and PO43- are insoluble, except those with group 1 and the ammonium ion; Most sulfides are insoluble, except those with group 1 and 2 and the ammonium ion; Most hydroxides are insoluble, except those with group 1, calcium, and barium; Most oxides are insoluble, except those with group 1 and 2",
+        "index": 1
+    },
+    {
+        "question": "what happens to solubility as ksp increases",
+        "answer": "solubility increases",
+        "index": 2
+    }
+]

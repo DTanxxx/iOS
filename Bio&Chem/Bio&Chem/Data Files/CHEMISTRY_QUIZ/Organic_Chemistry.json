@@ -1,0 +1,47 @@
+[
+    {
+        "question": "Isomer",
+        "answer": "Various chemical structures of same molecular formula",
+        "index": 0
+    },
+    {
+        "question": "Organic compound with carbon in highest oxidation state",
+        "answer": "carboxylic acid",
+        "index": 1
+    },
+    {
+        "question": "Saturated Hydrocarbons",
+        "answer": "No double bonds",
+        "index": 2
+    },
+    {
+        "question": "What organic compound has saturated hydrocarbons exclusively?",
+        "answer": "alkanes",
+        "index": 3
+    },
+    {
+        "question": "Alkynes",
+        "answer": "Have a triple bond between two carbon atoms",
+        "index": 4
+    },
+    {
+        "question": "Aromatics",
+        "answer": "Hydrocarbons with alternating double and single bonds between carbon atoms",
+        "index": 5
+    },
+    {
+        "question": "Oxidation product of a primary alcohol",
+        "answer": "Aldehyde",
+        "index": 6
+    },
+    {
+        "question": "Reaction between a carboxylic acid and alcohol in order to form an organic compound",
+        "answer": "esterification",
+        "index": 7
+    },
+    {
+        "question": "What substane is formed when CF2 - CF2 is polymerized?",
+        "answer": "Teflon",
+        "index": 8
+    }
+]

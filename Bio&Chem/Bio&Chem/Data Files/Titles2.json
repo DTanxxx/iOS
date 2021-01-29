@@ -1,0 +1,95 @@
+[
+    {
+        "topic": "Stoichiometry",
+        "chapters": {
+            "Formulas": 0,
+            "Yield": 1
+        }
+    },
+    {
+        "topic": "Atomic Structure",
+        "chapters": {
+            "The Atom": 0,
+            "Arrangement of Electrons in Orbitals": 1,
+            "Periodicity of Atomic Properties": 2
+        }
+    },
+    {
+        "topic": "Covalent Bonding",
+        "chapters": {
+            "Lewis Structure": 0,
+            "Molecular Shape and Bond Angle": 1,
+            "Sigma, Pi Bonds, and Hybrid Orbitals": 2
+        }
+    },
+    {
+        "topic": "Inorganic Chemistry",
+        "chapters": {
+            "Oxidation Numbers": 0,
+            "Redox Behaviour": 1,
+            "Balancing Redox Equations": 2
+        }
+    },
+    {
+        "topic": "Acids and Bases",
+        "chapters": {
+            "Bronsted-Lowry Acids and Bases": 0,
+            "pH, Ka and Kw": 1,
+            "Comparing pH and pKa": 2
+        }
+    },
+    {
+        "topic": "Organic Chemistry",
+        "chapters": {
+            "Alkanes": 0,
+            "Alkenes": 1,
+            "Benzene": 2,
+            "Elimination Reactions": 3,
+            "Nucleophilic Substitution": 4,
+            "Nucleophilic Addition": 5,
+            "Enantiomers": 6,
+            "Carbonyl Compounds": 7
+        }
+    },
+    {
+        "topic": "Thermochemistry",
+        "chapters": {
+            "Calculating Heat and Work": 0,
+            "Enthalpy changes": 1
+        }
+    },
+    {
+        "topic": "Electrochemistry",
+        "chapters": {
+            "Electrochemical Cells": 0,
+            "Cell Potential": 1,
+            "Standard Electrode Potential": 2,
+            "Electrolysis": 3,
+            "Faraday's Law": 4
+        }
+    },
+    {
+        "topic": "Solubility Equilibria",
+        "chapters": {
+            "Solubility of Ionic Solids": 0,
+            "Solubility Quotient and Solubility Product Constant": 1,
+            "Precipitation": 2,
+            "Common Ion Effect": 3
+        }
+    },
+    {
+        "topic": "Ideal Gas Laws",
+        "chapters": {
+            "Pressure-Volume Relationship": 0,
+            "Temperature-Volume Relationship": 1,
+            "Amount-Volume Relationship": 2,
+            "Combined Gas Law": 3,
+            "Dalton's Law of Partial Pressures": 4
+        }
+    }
+]
+
+
+
+
+

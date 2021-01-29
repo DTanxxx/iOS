@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DFEED9624118A61000B6640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEED9524118A61000B6640 /* AppDelegate.swift */; };
+		2DFEED9824118A61000B6640 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEED9724118A61000B6640 /* SceneDelegate.swift */; };
+		2DFEED9A24118A61000B6640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEED9924118A61000B6640 /* ViewController.swift */; };
+		2DFEED9D24118A61000B6640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEED9B24118A61000B6640 /* Main.storyboard */; };
+		2DFEED9F24118A69000B6640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEED9E24118A69000B6640 /* Assets.xcassets */; };
+		2DFEEDA224118A69000B6640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEEDA024118A69000B6640 /* LaunchScreen.storyboard */; };
+		2DFEEDA724118A6A000B6640 /* Card flip WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2DFEEDA624118A6A000B6640 /* Card flip WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DFEEDAD24118A6A000B6640 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEEDAB24118A6A000B6640 /* Interface.storyboard */; };
+		2DFEEDAF24118A6B000B6640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEEDAE24118A6B000B6640 /* Assets.xcassets */; };
+		2DFEEDB624118A6B000B6640 /* Card flip WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DFEEDB524118A6B000B6640 /* Card flip WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DFEEDBB24118A6B000B6640 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEEDBA24118A6B000B6640 /* InterfaceController.swift */; };
+		2DFEEDBD24118A6B000B6640 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEEDBC24118A6B000B6640 /* ExtensionDelegate.swift */; };
+		2DFEEDBF24118A6C000B6640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEEDBE24118A6C000B6640 /* Assets.xcassets */; };
+		2DFEEDD124118AC1000B6640 /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEEDCF24118AC1000B6640 /* PhantomFromSpace.mp3 */; };
+		2DFEEDD224118AC1000B6640 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEEDD024118AC1000B6640 /* README.txt */; };
+		2DFEEDD424118C36000B6640 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEEDD324118C36000B6640 /* CardViewController.swift */; };
+		2DFEEDD624130A52000B6640 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEEDD524130A51000B6640 /* GradientView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DFEEDA824118A6A000B6640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DFEED8A24118A61000B6640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DFEEDA524118A6A000B6640;
+			remoteInfo = "Card flip WatchKit App";
+		};
+		2DFEEDB724118A6B000B6640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DFEED8A24118A61000B6640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DFEEDB424118A6B000B6640;
+			remoteInfo = "Card flip WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2DFEEDC624118A6C000B6640 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2DFEEDB624118A6B000B6640 /* Card flip WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFEEDCA24118A6C000B6640 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2DFEEDA724118A6A000B6640 /* Card flip WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2DFEED9224118A61000B6640 /* Card flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card flip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFEED9524118A61000B6640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DFEED9724118A61000B6640 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2DFEED9924118A61000B6640 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DFEED9C24118A61000B6640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DFEED9E24118A69000B6640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DFEEDA124118A69000B6640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DFEEDA324118A69000B6640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFEEDA624118A6A000B6640 /* Card flip WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card flip WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFEEDAC24118A6A000B6640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2DFEEDAE24118A6B000B6640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DFEEDB024118A6B000B6640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFEEDB524118A6B000B6640 /* Card flip WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Card flip WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFEEDBA24118A6B000B6640 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2DFEEDBC24118A6B000B6640 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2DFEEDBE24118A6C000B6640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DFEEDC024118A6C000B6640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFEEDCF24118AC1000B6640 /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhantomFromSpace.mp3; sourceTree = "<group>"; };
+		2DFEEDD024118AC1000B6640 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		2DFEEDD324118C36000B6640 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		2DFEEDD524130A51000B6640 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DFEED8F24118A61000B6640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFEEDB224118A6B000B6640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DFEED8924118A61000B6640 = {
+			isa = PBXGroup;
+			children = (
+				2DFEED9424118A61000B6640 /* Card flip */,
+				2DFEEDAA24118A6A000B6640 /* Card flip WatchKit App */,
+				2DFEEDB924118A6B000B6640 /* Card flip WatchKit Extension */,
+				2DFEED9324118A61000B6640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DFEED9324118A61000B6640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DFEED9224118A61000B6640 /* Card flip.app */,
+				2DFEEDA624118A6A000B6640 /* Card flip WatchKit App.app */,
+				2DFEEDB524118A6B000B6640 /* Card flip WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DFEED9424118A61000B6640 /* Card flip */ = {
+			isa = PBXGroup;
+			children = (
+				2DFEEDCE24118AC1000B6640 /* Content */,
+				2DFEED9524118A61000B6640 /* AppDelegate.swift */,
+				2DFEED9724118A61000B6640 /* SceneDelegate.swift */,
+				2DFEED9924118A61000B6640 /* ViewController.swift */,
+				2DFEEDD324118C36000B6640 /* CardViewController.swift */,
+				2DFEEDD524130A51000B6640 /* GradientView.swift */,
+				2DFEED9B24118A61000B6640 /* Main.storyboard */,
+				2DFEED9E24118A69000B6640 /* Assets.xcassets */,
+				2DFEEDA024118A69000B6640 /* LaunchScreen.storyboard */,
+				2DFEEDA324118A69000B6640 /* Info.plist */,
+			);
+			path = "Card flip";
+			sourceTree = "<group>";
+		};
+		2DFEEDAA24118A6A000B6640 /* Card flip WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2DFEEDAB24118A6A000B6640 /* Interface.storyboard */,
+				2DFEEDAE24118A6B000B6640 /* Assets.xcassets */,
+				2DFEEDB024118A6B000B6640 /* Info.plist */,
+			);
+			path = "Card flip WatchKit App";
+			sourceTree = "<group>";
+		};
+		2DFEEDB924118A6B000B6640 /* Card flip WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2DFEEDBA24118A6B000B6640 /* InterfaceController.swift */,
+				2DFEEDBC24118A6B000B6640 /* ExtensionDelegate.swift */,
+				2DFEEDBE24118A6C000B6640 /* Assets.xcassets */,
+				2DFEEDC024118A6C000B6640 /* Info.plist */,
+			);
+			path = "Card flip WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2DFEEDCE24118AC1000B6640 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				2DFEEDCF24118AC1000B6640 /* PhantomFromSpace.mp3 */,
+				2DFEEDD024118AC1000B6640 /* README.txt */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DFEED9124118A61000B6640 /* Card flip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFEEDCB24118A6C000B6640 /* Build configuration list for PBXNativeTarget "Card flip" */;
+			buildPhases = (
+				2DFEED8E24118A61000B6640 /* Sources */,
+				2DFEED8F24118A61000B6640 /* Frameworks */,
+				2DFEED9024118A61000B6640 /* Resources */,
+				2DFEEDCA24118A6C000B6640 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DFEEDA924118A6A000B6640 /* PBXTargetDependency */,
+			);
+			name = "Card flip";
+			productName = "Card flip";
+			productReference = 2DFEED9224118A61000B6640 /* Card flip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DFEEDA524118A6A000B6640 /* Card flip WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFEEDC724118A6C000B6640 /* Build configuration list for PBXNativeTarget "Card flip WatchKit App" */;
+			buildPhases = (
+				2DFEEDA424118A6A000B6640 /* Resources */,
+				2DFEEDC624118A6C000B6640 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DFEEDB824118A6B000B6640 /* PBXTargetDependency */,
+			);
+			name = "Card flip WatchKit App";
+			productName = "Card flip WatchKit App";
+			productReference = 2DFEEDA624118A6A000B6640 /* Card flip WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2DFEEDB424118A6B000B6640 /* Card flip WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFEEDC324118A6C000B6640 /* Build configuration list for PBXNativeTarget "Card flip WatchKit Extension" */;
+			buildPhases = (
+				2DFEEDB124118A6B000B6640 /* Sources */,
+				2DFEEDB224118A6B000B6640 /* Frameworks */,
+				2DFEEDB324118A6B000B6640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card flip WatchKit Extension";
+			productName = "Card flip WatchKit Extension";
+			productReference = 2DFEEDB524118A6B000B6640 /* Card flip WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DFEED8A24118A61000B6640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = LearnAppMaking;
+				TargetAttributes = {
+					2DFEED9124118A61000B6640 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2DFEEDA524118A6A000B6640 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2DFEEDB424118A6B000B6640 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2DFEED8D24118A61000B6640 /* Build configuration list for PBXProject "Card flip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DFEED8924118A61000B6640;
+			productRefGroup = 2DFEED9324118A61000B6640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DFEED9124118A61000B6640 /* Card flip */,
+				2DFEEDA524118A6A000B6640 /* Card flip WatchKit App */,
+				2DFEEDB424118A6B000B6640 /* Card flip WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DFEED9024118A61000B6640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFEEDA224118A69000B6640 /* LaunchScreen.storyboard in Resources */,
+				2DFEEDD124118AC1000B6640 /* PhantomFromSpace.mp3 in Resources */,
+				2DFEED9F24118A69000B6640 /* Assets.xcassets in Resources */,
+				2DFEED9D24118A61000B6640 /* Main.storyboard in Resources */,
+				2DFEEDD224118AC1000B6640 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFEEDA424118A6A000B6640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFEEDAF24118A6B000B6640 /* Assets.xcassets in Resources */,
+				2DFEEDAD24118A6A000B6640 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFEEDB324118A6B000B6640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFEEDBF24118A6C000B6640 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DFEED8E24118A61000B6640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFEEDD424118C36000B6640 /* CardViewController.swift in Sources */,
+				2DFEED9A24118A61000B6640 /* ViewController.swift in Sources */,
+				2DFEEDD624130A52000B6640 /* GradientView.swift in Sources */,
+				2DFEED9624118A61000B6640 /* AppDelegate.swift in Sources */,
+				2DFEED9824118A61000B6640 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFEEDB124118A6B000B6640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFEEDBD24118A6B000B6640 /* ExtensionDelegate.swift in Sources */,
+				2DFEEDBB24118A6B000B6640 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DFEEDA924118A6A000B6640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DFEEDA524118A6A000B6640 /* Card flip WatchKit App */;
+			targetProxy = 2DFEEDA824118A6A000B6640 /* PBXContainerItemProxy */;
+		};
+		2DFEEDB824118A6B000B6640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DFEEDB424118A6B000B6640 /* Card flip WatchKit Extension */;
+			targetProxy = 2DFEEDB724118A6B000B6640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DFEED9B24118A61000B6640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DFEED9C24118A61000B6640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DFEEDA024118A69000B6640 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DFEEDA124118A69000B6640 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2DFEEDAB24118A6A000B6640 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DFEEDAC24118A6A000B6640 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DFEEDC124118A6C000B6640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DFEEDC224118A6C000B6640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DFEEDC424118A6C000B6640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR9PL4C5TR;
+				INFOPLIST_FILE = "Card flip WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnappmaking.Card-flip.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		2DFEEDC524118A6C000B6640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR9PL4C5TR;
+				INFOPLIST_FILE = "Card flip WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnappmaking.Card-flip.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		2DFEEDC824118A6C000B6640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR9PL4C5TR;
+				IBSC_MODULE = Card_flip_WatchKit_Extension;
+				INFOPLIST_FILE = "Card flip WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnappmaking.Card-flip.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		2DFEEDC924118A6C000B6640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR9PL4C5TR;
+				IBSC_MODULE = Card_flip_WatchKit_Extension;
+				INFOPLIST_FILE = "Card flip WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnappmaking.Card-flip.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		2DFEEDCC24118A6C000B6640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR9PL4C5TR;
+				INFOPLIST_FILE = "Card flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnappmaking.Card-flip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2DFEEDCD24118A6C000B6640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR9PL4C5TR;
+				INFOPLIST_FILE = "Card flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnappmaking.Card-flip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DFEED8D24118A61000B6640 /* Build configuration list for PBXProject "Card flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFEEDC124118A6C000B6640 /* Debug */,
+				2DFEEDC224118A6C000B6640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFEEDC324118A6C000B6640 /* Build configuration list for PBXNativeTarget "Card flip WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFEEDC424118A6C000B6640 /* Debug */,
+				2DFEEDC524118A6C000B6640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFEEDC724118A6C000B6640 /* Build configuration list for PBXNativeTarget "Card flip WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFEEDC824118A6C000B6640 /* Debug */,
+				2DFEEDC924118A6C000B6640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFEEDCB24118A6C000B6640 /* Build configuration list for PBXNativeTarget "Card flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFEEDCC24118A6C000B6640 /* Debug */,
+				2DFEEDCD24118A6C000B6640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DFEED8A24118A61000B6640 /* Project object */;
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Reduction of water",
+        "answer": "2H2O + 2e- --> H2 + 2OH-",
+        "index": 0
+    },
+    {
+        "question": "Oxidation of water",
+        "answer": "H2O --> O2 +4H+ + 4e-",
+        "index": 1
+    },
+    {
+        "question": "Molten salt cation",
+        "answer": "Moves towards cathode and undergoes reduction",
+        "index": 2
+    },
+    {
+        "question": "Molten salt anion",
+        "answer": "Moves towards anode and undergoes oxidation",
+        "index": 3
+    },
+    {
+        "question": "Oxidation",
+        "answer": "Loss of electrons or increase in oxidation number. FIRST ASSESS IF O IS GAINED, THEN IDENTIFY OXIDATION NUMBERS",
+        "index": 4
+    }
+]

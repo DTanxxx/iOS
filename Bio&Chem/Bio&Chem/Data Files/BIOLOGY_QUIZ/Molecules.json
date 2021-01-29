@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Maltose is made of",
+        "answer": "glucose + glucose",
+        "index": 0
+    },
+    {
+        "question": "Sucrose is made of",
+        "answer": "glucose + fructose",
+        "index": 1
+    },
+    {
+        "question": "Lactose is made of",
+        "answer": "glucose + galactose",
+        "index": 2
+    },
+    {
+        "question": "Bonds between Monosaccharides is called",
+        "answer": "Glycosidic Bonds",
+        "index": 3
+    },
+    {
+        "question": "Name of bonds in lipids",
+        "answer": "Ester Bonds",
+        "index": 4
+    },
+    {
+        "question": "Properties of triglycerides",
+        "answer": "Insoluble (Don't effect water potential); Efficient store of chemical energy (2x as much per gram as carbohydrates)",
+        "index": 5
+    },
+    {
+        "question": "Properties of phospholipids",
+        "answer": "Hydrophilic Phosphate Head; Hydrophobic Fatty Acids Tail",
+        "index": 6
+    },
+    {
+        "question": "Structure of Starch",
+        "answer": "Made of (80-90%) Amylopectin and (10-20%) Amylose",
+        "index": 7
+    },
+    {
+        "question": "Structure of Glycogen",
+        "answer": "Made of alpha glucose with both 1,4 and 1,6 glycosidic bonds (More 1,6 bonds that amylopectin)",
+        "index": 8
+    },
+    {
+        "question": "Structure of Cellulose",
+        "answer": "Made of Beta glucose bonded with 1,4 glycosidic bonds. Forms straight unbranched chains which are held together by hydrogen bonds",
+        "index": 9
+    },
+    {
+        "question": "Name of bonds between amino acids",
+        "answer": "peptide bonds",
+        "index": 10
+    },
+    {
+        "question": "Primary structure of protein",
+        "answer": "The sequence of amino acids in a polypeptide chain",
+        "index": 11
+    },
+    {
+        "question": "Secondary structure of protein",
+        "answer": "Hydrogen bonds form between the amino acids in the chain which makes it automatically coil into an alpha helix or fold into a beta pleated sheet. The helix is held together by H bonds between every N-H group and the oxygen of the C=O.",
+        "index": 12
+    },
+    {
+        "question": "Tertiary structure of proteins",
+        "answer": "The chain is further coiled and folded due to more hydrogen, ionic and covalent (disulphide bridges between cystine residues) bonds forming",
+        "index": 13
+    },
+    {
+        "question": "Quaternary Structure of protein",
+        "answer": "Several Polypeptide chains some with additional groups",
+        "index": 14
+    },
+    {
+        "question": "Types of enzyme inhibition",
+        "answer": "Competitive and non-competitive inhibition",
+        "index": 15
+    }
+]

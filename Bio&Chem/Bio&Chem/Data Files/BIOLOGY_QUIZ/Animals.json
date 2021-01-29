@@ -1,0 +1,433 @@
+[
+    {
+        "question": "pineal gland",
+        "answer": "secretes melatonin",
+        "index": 0
+    },
+    {
+        "question": "Hypothalamus",
+        "answer": "A neural structure lying below the thalamus; it directs several maintenance activities (eating, drinking, body temperature), helps govern the endocrine system via the pituitary gland, and is linked to emotion and reward. Makes ADH, GaRH, CRH, GHRH, PIF, and Oxytocin.",
+        "index": 1
+    },
+    {
+        "question": "anterior pituitary gland",
+        "answer": "GH, TSH, ACTH, FSH, LH, Prolactin",
+        "index": 2
+    },
+    {
+        "question": "GnRH (gonadotropin-releasing hormone)",
+        "answer": "a hormone secreted by the hypothalamus that regulates the pituitary's secretion of gonad-stimulating hormones (FSH and LH)",
+        "index": 3
+    },
+    {
+        "question": "TRH (thyrotropin releasing hormone)",
+        "answer": "promotes TSH and PRL secretion",
+        "index": 4
+    },
+    {
+        "question": "TSH (thyroid stimulating hormone)",
+        "answer": "Stimulates thyroid gland to produce thyroid hormones.",
+        "index": 5
+    },
+    {
+        "question": "ACTH (adrenocorticotropic hormone)",
+        "answer": "Stimulates adrenal cortex to release glucocorticoids (cortisol) (anterior pituitary)",
+        "index": 6
+    },
+    {
+        "question": "FSH",
+        "answer": "follicle-stimulating hormone; act on gonads (anterior pituitary)",
+        "index": 7
+    },
+    {
+        "question": "LH (luteinizing hormone)",
+        "answer": "a hormone that causes the secretion of sex hormones by the testes and ovaries (anterior pituitary)",
+        "index": 8
+    },
+    {
+        "question": "Posterior Pituitary",
+        "answer": "ADH and oxytocin",
+        "index": 9
+    },
+    {
+        "question": "ADH",
+        "answer": "antidiuretic hormone/water balance (vasopressin) (released from Posterior Pituitary made in Hypothalamus)",
+        "index": 10
+    },
+    {
+        "question": "Oxytocin (OT)",
+        "answer": "Increases the contractions of the uterus during birth and promotes the release of breast milk (released from Posterior Pituitary made in Hypothalamus)",
+        "index": 11
+    },
+    {
+        "question": "T3 (triiodothyronine)",
+        "answer": "increases metabolism and basal metabolic rate (BMR)",
+        "index": 12
+    },
+    {
+        "question": "T4 (thyroxine)",
+        "answer": "major form that consists of two tyrosine molecules with four bound iodine atoms; increases metabolism and basal metabolic rate (BMR)",
+        "index": 13
+    },
+    {
+        "question": "Pancreas",
+        "answer": "Regulates the level of sugar in the blood",
+        "index": 14
+    },
+    {
+        "question": "Calcitonin (CT)",
+        "answer": "Inhibits the breakdown of bone; causes a decrease in blood calcium concentration",
+        "index": 15
+    },
+    {
+        "question": "Insulin",
+        "answer": "A protein hormone synthesized in the pancreas that regulates blood sugar levels by facilitating the uptake of glucose into tissues",
+        "index": 16
+    },
+    {
+        "question": "Glucagon",
+        "answer": "A hormone secreted by the pancreatic alpha cells that increases blood glucose concentration",
+        "index": 17
+    },
+    {
+        "question": "adrenal cortex",
+        "answer": "outer section of each adrenal gland; secretes cortisol, aldosterone, and sex hormones",
+        "index": 18
+    },
+    {
+        "question": "Glucorticoids",
+        "answer": "hormones produced by the adrenal cortex that reduce edema and the release of histamines in the respiratory system by interrupting the inflammatory process",
+        "index": 19
+    },
+    {
+        "question": "Aldosterone",
+        "answer": "Hormone that stimulates the kidney to retain sodium ions and water",
+        "index": 20
+    },
+    {
+        "question": "adrenal medulla",
+        "answer": "secretes epinephrine and norepinephrine",
+        "index": 21
+    },
+    {
+        "question": "Epinephrine",
+        "answer": "Neurotransmitter secreted by the adrenal medulla in response to stress. Also known as adrenaline. FIGHT OR FLIGHT",
+        "index": 22
+    },
+    {
+        "question": "Norepinephrine",
+        "answer": "A neurotransmitter involved in arousal, as well as in learning and mood regulation",
+        "index": 23
+    },
+    {
+        "question": "water soluble hormones",
+        "answer": "Act on plasma membrane receptors. Act via G protein second messengers. Cannot enter cell; DOCK WITH RECEPTOR ON SURFACE",
+        "index": 24
+    },
+    {
+        "question": "lipid soluble hormones",
+        "answer": "steroid and thyroid hormones; act on intracellular receptors that directly activate genes; can enter cell",
+        "index": 25
+    },
+    {
+        "question": "G-protein",
+        "answer": "A GTP-binding protein that relays signals from a plasma membrane signal receptor, known as a G protein-coupled receptor, to other signal transduction proteins inside the cell.",
+        "index": 26
+    },
+    {
+        "question": "GDP",
+        "answer": "a molecule similar to ADP but containing the base guanine instead of adenine; released and replaced by GTP",
+        "index": 27
+    },
+    {
+        "question": "cAMP",
+        "answer": "cyclic adenosine monophosphate, second messenger",
+        "index": 28
+    },
+    {
+        "question": "Signal amplification",
+        "answer": "Enzyme cascades amp the cell's response to a signal. At each step in the cascade, the number of activated products is much greater than the previous step.",
+        "index": 29
+    },
+    {
+        "question": "innate immunity",
+        "answer": "Immunity that is present before exposure and effective from birth. Responds to a broad range of pathogens.",
+        "index": 30
+    },
+    {
+        "question": "Macrophages",
+        "answer": "Found within the lymph nodes, they are phagocytes that destroy bacteria, cancer cells, and other foreign matter in the lymphatic stream.",
+        "index": 31
+    },
+    {
+        "question": "dentritic cells",
+        "answer": "common in surfaces exposed to the environment. Enter the lymph system after contact with foreign invaders. Can break things down or trigger an immune response",
+        "index": 32
+    },
+    {
+        "question": "natural killer cells",
+        "answer": "pursue diseased cells (such as those infected by viruses or cancer)",
+        "index": 33
+    },
+    {
+        "question": "complement system",
+        "answer": "A group of about 30 blood proteins that may amplify the inflammatory response, enhance phagocytosis, or directly lyse extracellular pathogens.",
+        "index": 34
+    },
+    {
+        "question": "Interferons (IFNs)",
+        "answer": "interfere with viral infections of host cells",
+        "index": 35
+    },
+    {
+        "question": "inflammatory response",
+        "answer": "nonspecific defense reaction to tissue damage caused by injury or infection",
+        "index": 36
+    },
+    {
+        "question": "histamine",
+        "answer": "Chemical stored in mast cells that triggers dilation and increased permeability of capillaries.",
+        "index": 37
+    },
+    {
+        "question": "adaptive immunity",
+        "answer": "the ability to recognize and remember specific antigens and mount an attack on them",
+        "index": 38
+    },
+    {
+        "question": "Lymphocytes",
+        "answer": "B lymphocytes form in the bone marrow and release antibodies that fight bacterial infections; T lymphocytes form in the thymus and other lymphatic tissue and attack cancer cells, viruses, and foreign substances.",
+        "index": 39
+    },
+    {
+        "question": "antigen presenting cells",
+        "answer": "dendritic cells, macrophages, B cells",
+        "index": 40
+    },
+    {
+        "question": "cell-mediated immune response",
+        "answer": "The branch of acquired immunity that involves the activation of cytotoxic T cells, which defend against infected cells.",
+        "index": 41
+    },
+    {
+        "question": "Cytotoxic T cells",
+        "answer": "A type of lymphocyte that kills infected body cells and cancer cells",
+        "index": 42
+    },
+    {
+        "question": "humoral immune response",
+        "answer": "The branch of acquired immunity that involves the activation of B cells and that leads to the production of antibodies, which defend against bacteria and viruses in body fluids.",
+        "index": 43
+    },
+    {
+        "question": "essential nutrients",
+        "answer": "nutrients necessary for normal body functioning that must be obtained from food",
+        "index": 44
+    },
+    {
+        "question": "bulk feeders",
+        "answer": "eat relatively large pieces of food",
+        "index": 45
+    },
+    {
+        "question": "filter feeding",
+        "answer": "method in which food particles are filtered from water as it passes by or through some part of the organism",
+        "index": 46
+    },
+    {
+        "question": "substrate feeding",
+        "answer": "animals that live in or on their food source",
+        "index": 47
+    },
+    {
+        "question": "fluid feeding",
+        "answer": "sucking sap or animal body fluids",
+        "index": 48
+    },
+    {
+        "question": "gastrovascular cavity",
+        "answer": "A central cavity with a single opening in the body of certain animals, including cnidarians and flatworms, that functions in both the digestion and distribution of nutrients.",
+        "index": 49
+    },
+    {
+        "question": "alimentry canal",
+        "answer": "digest food, break down food, ulcer",
+        "index": 50
+    },
+    {
+        "question": "Function of Amylase",
+        "answer": "breaks down starch into maltose",
+        "index": 51
+    },
+    {
+        "question": "What protease is found in the stomach",
+        "answer": "Pepsin (endo-peptidase) is released by cells in the stomach lining an only works in acidic conditions",
+        "index": 52
+    },
+    {
+        "question": "What proteases are secreted by the pancreas and work in the small intestine",
+        "answer": "Trypsin and Chymotrypsin (endo-peptidases)",
+        "index": 53
+    },
+    {
+        "question": "Where is lipase produced and where is it active",
+        "answer": "Produced in the pancreases and is active in the small intestine",
+        "index": 54
+    },
+    {
+        "question": "Where are bile salts produced and then stored",
+        "answer": "Produced in the liver stored in the gull bladder",
+        "index": 55
+    },
+    {
+        "question": "3 Functions of Bile Salts",
+        "answer": "Neutralise pH; Emulsify large fat globules; Stick to monoglycerides and fatty acids forming MICELLES",
+        "index": 56
+    },
+    {
+        "question": "The Absorption of Triglycerides and Fatty Acids",
+        "answer": "Micelles (dissolve) release the monoglycerides and fatty acids near the epithelial cells of the ileum (absorbed by simple diffusion). Triglycerides are reformed at the SER. These are then turned into chylomicrons and are exported in a vesicle by exocytosis. They are absorbed into the LACTEALS in the villi",
+        "index": 57
+    },
+    {
+        "question": "The process of Ultrafiltration in the Kidney",
+        "answer": "Blood enters the GLOMERULUS under HIGH PRESSURE. Liquid and small molecules can pass through the three layers and enter the nephron tubes to form the GLOMERULAR FILTRATE. Large molecules like proteins and blood cells remain in the blood as they are too large.",
+        "index": 58
+    },
+    {
+        "question": "The 3 layers that molecules must pass through to make up the Glomerular Filtrate",
+        "answer": "Capillary Endothelium; Basement Membrane; Bowman's Capsule Epithelium",
+        "index": 59
+    },
+    {
+        "question": "Urine Contains....",
+        "answer": "Water; Salts; Urea; Excess hormones and vitamins",
+        "index": 60
+    },
+    {
+        "question": "Is the ascending limb permeable to water",
+        "answer": "No",
+        "index": 61
+    },
+    {
+        "question": "Is the descending limb permeable to water",
+        "answer": "Yes",
+        "index": 62
+    },
+    {
+        "question": "How does ADH effect the permeability of the DCT and Collecting Duct to Water",
+        "answer": "Causes vesicles contains aquaporin proteins (facilitated diffusion of water) to fuse to cell surface membranes of the DCT and Collecting Duct allowing them to become more permeable.",
+        "index": 63
+    },
+    {
+        "question": "What are myofibrils",
+        "answer": "Bundles of myofilaments that run the length of a fibres",
+        "index": 64
+    },
+    {
+        "question": "Thick Myofilaments are made of",
+        "answer": "Myosin",
+        "index": 65
+    },
+    {
+        "question": "Thin Myofilaments are made of",
+        "answer": "Actin",
+        "index": 66
+    },
+    {
+        "question": "The short units of Myofibrils are called",
+        "answer": "Sarcomere",
+        "index": 67
+    },
+    {
+        "question": "A - Band",
+        "answer": "The length of the thick myosin filaments (Dark Band)",
+        "index": 68
+    },
+    {
+        "question": "I - Band",
+        "answer": "The area which contains only thin actin filaments (Light Band)",
+        "index": 69
+    },
+    {
+        "question": "H - Zone",
+        "answer": "The area which contains only thick myosin filaments",
+        "index": 70
+    },
+    {
+        "question": "Z - Line",
+        "answer": "A dark thin protein band to which actin filaments are attached in a striated muscle fibres",
+        "index": 71
+    },
+    {
+        "question": "M - Line",
+        "answer": "A supporting proteins that hold the thick myosin filaments together in the H zone",
+        "index": 72
+    },
+    {
+        "question": "When muscle contracts....",
+        "answer": "A - Band stays the same length; I - Band shortens; H - Zone shortens",
+        "index": 73
+    },
+    {
+        "question": "Importance of tropomyosin",
+        "answer": "Block the actin-myosin binding site until there is calcium ions present",
+        "index": 74
+    },
+    {
+        "question": "What colour are slow twitch muscle fibres",
+        "answer": "Reddish in colour because they are rich in myoglobin and have more capillaries",
+        "index": 75
+    },
+    {
+        "question": "What colour are fast twitch muscle fibres",
+        "answer": "Whiteish in colour because they have little myoglobin and have fewer capillaries",
+        "index": 76
+    },
+    {
+        "question": "The function of Myelination",
+        "answer": "To increase the speed of action potential conduction as the impulse travels by Saltatory Conduction",
+        "index": 77
+    },
+    {
+        "question": "Why is saltatory conduction faster",
+        "answer": "Depolarisation of the neurone only has to occur at the nodes of ranvier and therefore the nerve impulse 'jumps' between the nodes increasing the speed of conduction.",
+        "index": 78
+    },
+    {
+        "question": "The Effect of Axon Diameter on the Speed of Action Potential Conduction",
+        "answer": "Larger diameter axon = Faster Conduction (Because there is less resistance to ion flow and more ion channels)",
+        "index": 79
+    },
+    {
+        "question": "The Effect of Temperature on the Speed of Action Potential Conduction",
+        "answer": "An increase to temperature increase the rate of Action Potential Conduction",
+        "index": 80
+    },
+    {
+        "question": "What occurs straight after an action potential",
+        "answer": "The refractory period",
+        "index": 81
+    },
+    {
+        "question": "What can describe the nature of acton potentials",
+        "answer": "All or nothing nature (Threshold must be reached)",
+        "index": 82
+    },
+    {
+        "question": "Action potentials are always the ...",
+        "answer": "same voltage, a bigger stimuli just causes more frequent action potentials",
+        "index": 83
+    },
+    {
+        "question": "What is Hyper-polarisation",
+        "answer": "Hyper-polarisation refers to the overshoot after repolarisation where the potential across the membrane is more negative than the resting potential.",
+        "index": 84
+    },
+    {
+        "question": "What is resting potential",
+        "answer": "The difference in electric charge outside the neurone is (more) positively charge compared to the inside.",
+        "index": 85
+    }
+]
+

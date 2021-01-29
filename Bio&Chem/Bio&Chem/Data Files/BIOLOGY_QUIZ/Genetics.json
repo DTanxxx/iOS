@@ -1,0 +1,172 @@
+[
+    {
+        "question": "Prophase 1",
+        "answer": "Nuclear envelope breaks down; Chromosomes condense; Centrioles move to poles form spindle fibres; Homologous pairs of chromosomes come together and CROSSING OVER occurs",
+        "index": 0
+    },
+    {
+        "question": "Metaphase 1",
+        "answer": "HOMOLOGOUS PAIRS of chromosomes line up across the cell equator; INDEPENDENT ASSORTMENT OCCURS; Chromosomes joined to the spindle fibres by their centromeres",
+        "index": 1
+    },
+    {
+        "question": "Anaphase 1",
+        "answer": "The two chromosomes of the homologous pairs are separated; Spindle fibres shorten",
+        "index": 2
+    },
+    {
+        "question": "Telophase 1 and cytokinesis",
+        "answer": "The homologous chromosomes move until they reach the opposite poles. Each pole then contains a haploid set of chromosomes; Nuclear Envelope begins to form; Cytokinesis occurs",
+        "index": 3
+    },
+    {
+        "question": "Prophase 2",
+        "answer": "DNA condenses to form chromosomes, the nuclear membrane breaks down and centrioles move to opposite poles of the cell forming spindle fibres",
+        "index": 4
+    },
+    {
+        "question": "Metaphase 2",
+        "answer": "The chromosomes line up across the center of the cell. Each chromosome is connected to a spindle fibres at its centromere",
+        "index": 5
+    },
+    {
+        "question": "Anaphase 2",
+        "answer": "Centromeres divide and sister chromatids separate and the spindle fibres contract pulling the individual chromatids to the opposite poles of the cell",
+        "index": 6
+    },
+    {
+        "question": "Telophase 2 and cytokinesis",
+        "answer": "Individual chromatids reach the opposite poles of the cell and then un-condense and the nuclear envelopes form producing to separate nuclei, resulting in 4 HAPLOID DAUGHTER CELLS",
+        "index": 7
+    },
+    {
+        "question": "Process of DNA Replication",
+        "answer": "DNA Helicase binds to the DNA and breaks the hydrogen bonds between the nitrogenous base. Free floating DNA nucleotides bind by complementary base paring to the exposed bases. DNA polymerase bind to the DNA strand and catalyses the formation of new phosphodiester bond between the new free floating bases.",
+        "index": 8
+    },
+    {
+        "question": "Movement of DNA polymerase",
+        "answer": "3' to 5' Direction",
+        "index": 9
+    },
+    {
+        "question": "Leading and Lagging Strands",
+        "answer": "The leading is the strand is made continuously in the 5' to 3' direction by DNA polymerase. The lagging strand is made in Okazaki fragments as DNA polymerase cannot work continuously",
+        "index": 10
+    },
+    {
+        "question": "The Process of Transcription",
+        "answer": "RNA Polymerase binds to a specific region of DNA at the start of a gene being 'read'. It breaks the hydrogen bonds exposing the nitrogenous bases and allowing free floating RNA nucleotides to complementary base pair to the DNA strand. RNA polymerase then catalyses the reaction of new phosphodiester bonds between the RNA nucleotides.",
+        "index": 11
+    },
+    {
+        "question": "The Process of Translation",
+        "answer": "The mRNA binds to a ribosome at its start codon and then tRNA molecules with attached to specific amino acids complementary base pair to the mRNA. The ribosome catalyses the formation of new Peptide bonds between the amino acids.",
+        "index": 12
+    },
+    {
+        "question": "What is splicing",
+        "answer": "Removing introns from pre-mRNA to form mRNA.",
+        "index": 13
+    },
+    {
+        "question": "What is Co-Dominance",
+        "answer": "Expression of both alleles",
+        "index": 14
+    },
+    {
+        "question": "What is Incomplete dominance",
+        "answer": "when one allele is not completely dominant over another so a combination is expressed",
+        "index": 15
+    },
+    {
+        "question": "Sex Linked Genes",
+        "answer": "A gene which is only found on the X chromosomes, therefore effecting the probability of men getting a disease.",
+        "index": 16
+    },
+    {
+        "question": "Autosomally-linked genes",
+        "answer": "Genes which have their loci on the same chromosome and therefore these will be inherited together unless crossing over occurs between these two loci producing recombinant alleles",
+        "index": 17
+    },
+    {
+        "question": "What is Epistasis",
+        "answer": "When an allele of one gene can mask the expression of an allele of another gene",
+        "index": 18
+    },
+    {
+        "question": "The Hardy Weinberg Equation",
+        "answer": "p^2 + 2pq + q^2 = 1   (p=Dominant allele frequency and q=recessive allele frequency)",
+        "index": 19
+    },
+    {
+        "question": "The Hardy Weinberg Conditions",
+        "answer": "No mutations; Random mating; No natural selection; Extremely large population size; No gene flow (Migration)",
+        "index": 20
+    },
+    {
+        "question": "5 sources of genetic variation",
+        "answer": "Base Sequence Mutations; Crossing Over; Inderpendant Assortment; Random Fertilisation; Chromosomal Mutations",
+        "index": 21
+    },
+    {
+        "question": "2 types of transcription factors",
+        "answer": "Activators; Repressors",
+        "index": 22
+    },
+    {
+        "question": "Where do transcription factors bind",
+        "answer": "The recognition site in the promotor region of a specific gene being transcribed",
+        "index": 23
+    },
+    {
+        "question": "Increased Methylation....",
+        "answer": "Switches a gene off (By binding to the DNA making it harder for transcription factors and RNA polymerase to bind)",
+        "index": 24
+    },
+    {
+        "question": "Increased Acetylation....",
+        "answer": "Switches a gene on (By binding to histone proteins causing the chromatin to becomes less condensed therefore making it easier for transcription factors and RNA polymerase to bind)",
+        "index": 25
+    },
+    {
+        "question": "What is Genome Shotgun Sequencing",
+        "answer": "DNA is cut into lots of smaller fragments which can be read simultaneously to increase the speed of genome sequencing. The fragments are then combined together by looking at their over laps",
+        "index": 26
+    },
+    {
+        "question": "How can Reverse Transcriptase be used to obtain DNA fragments",
+        "answer": "Obtain the mRNA the place the mRNA in a solution contain reverse transcriptase and free floating DNA nucleotides and this produces cDNA (single stranded) from which double stranded DNA can be produced.",
+        "index": 27
+    },
+    {
+        "question": "How can Restriction Endonuclease Enzymes be used to obtain DNA fragments",
+        "answer": "Specific restriction endonuclease are used cut the palindromic DNA at either end of the gene being isolated. Where they bind is known as restriction sites (These have a complementary base sequence to the active site of the enzyme). Produce sticky ends",
+        "index": 28
+    },
+    {
+        "question": "Name of the process from amplifying DNA fragments IN VITRO",
+        "answer": "Polymerase Chain Reaction (PCR)",
+        "index": 29
+    },
+    {
+        "question": "Process of PCR",
+        "answer": "Heat to 95°C (separates the DNA strands by denaturing hydrogen bonds). Cool down to 55°C (allowing primers to bind to permeated strands). Heat to 72°C and add DNA polymerase and free floating DNA nucleotides (new complementary strands are synthesised)",
+        "index": 30
+    },
+    {
+        "question": "What type of DNA polymerase is used in PCR",
+        "answer": "Taq polymerase (Heat Resistance)",
+        "index": 31
+    },
+    {
+        "question": "Process of Gel Electrophoresis",
+        "answer": "A DNA sample is obtain and PCR is used to amplify the DNA (VNTR sections of DNA). A fluorescent tag is added. They are placed in a well in a gel slab covered in buffered solution. An electrical charge is passed through the gel and DNA moves to the Positive electrodes. Smaller fragments move further than large fragments as there is less resistance.",
+        "index": 32
+    },
+    {
+        "question": "The Replication of HIV",
+        "answer": "Attachment proteins on the HIV bind to a receptor molecule on the cell surface membrane of their host T cell. The Capsid is released into the cell where it uncoats and releases its genetic material RNA. Reverse Transcriptase is used to make a complementary strand of DNA from the viral RNA which is then used to produce a molecule of double-stranded DNA. This double-stranded DNA is inserted in to the human DNA, this is then read by the cell and viral proteins are produced and assembled into new viruses which are released from the cell.",
+        "index": 33
+    }
+]

@@ -1,0 +1,219 @@
+[
+    {
+        "name": "firing",
+        "cost": 200,
+        "reactions": [
+            {
+                "name": "combustion_1C",
+                "energy": 90,
+                "reactants": [
+                    {
+                        "type": "hydrocarbon_1C",
+                        "amount": 1
+                    },
+                    {
+                        "type": "oxygen",
+                        "amount": 2
+                    }
+                ],
+                "catalysts": [
+                ]
+            },
+            {
+                "name": "combustion_3C",
+                "energy": 110,
+                "reactants": [
+                    {
+                        "type": "hydrocarbon_3C",
+                        "amount": 1
+                    },
+                    {
+                        "type": "oxygen",
+                        "amount": 5
+                    }
+                ],
+                "catalysts": [
+                ]
+            },
+            {
+                "name": "combustion_5C",
+                "energy": 130,
+                "reactants": [
+                    {
+                        "type": "hydrocarbon_5C",
+                        "amount": 1
+                    },
+                    {
+                        "type": "oxygen",
+                        "amount": 8
+                    }
+                ],
+                "catalysts": [
+                ]
+            },
+            {
+                "name": "group1_metal_oxygen_redox",
+                "energy": 150,
+                "reactants": [
+                    {
+                        "type": "group1_metal",
+                        "amount": 4
+                    },
+                    {
+                        "type": "oxygen",
+                        "amount": 1
+                    }
+                ],
+                "catalysts": [
+                ]
+            },
+            {
+                "name": "group2_metal_oxygen_redox",
+                "energy": 120,
+                "reactants": [
+                    {
+                        "type": "group2_metal",
+                        "amount": 2
+                    },
+                    {
+                        "type": "oxygen",
+                        "amount": 1
+                    }
+                ],
+                "catalysts": [
+                ]
+            },
+            {
+                "name": "sugar_sulfuric_acid_dehydration",
+                "energy": 180,
+                "reactants": [
+                    {
+                        "type": "sucrose",
+                        "amount": 1
+                    }
+                ],
+                "catalysts": [
+                    "sulfuric_acid"
+                ]
+            },
+            { 
+                "name": "thermite",
+                "energy": 250,
+                "reactants": [
+                    {
+                        "type": "aluminium",
+                        "amount": 2
+                    },
+                    {
+                        "type": "iron_oxide",
+                        "amount": 1
+                    }
+                ],
+                "catalysts": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "melting",
+        "cost": 100,
+        "reactions": [
+            {
+                "name": "group1_metal_water_redox",
+                "energy": 60,
+                "reactants": [
+                    {
+                        "type": "group1_metal",
+                        "amount": 2
+                    },
+                    {
+                        "type": "water",
+                        "amount": 2
+                    }
+                ],
+                "catalysts": [
+                ]
+            },
+            {
+                "name": "group2_metal_water_redox",
+                "energy": 40,
+                "reactants": [
+                    {
+                        "type": "group2_metal",
+                        "amount": 1
+                    },
+                    {
+                        "type": "water",
+                        "amount": 2
+                    }
+                ],
+                "catalysts": [
+                ]
+            },
+            {
+                "name": "anhydrous_salt_water_hydration",
+                "energy": 40,
+                "reactants": [
+                    {
+                        "type": "anhydrous_salt",
+                        "amount": 1
+                    },
+                    {
+                        "type": "water",
+                        "amount": 5
+                    }
+                ],
+                "catalysts": [
+                ]
+            },
+            {
+                "name": "neutralization",
+                "energy": 30,
+                "reactants": [
+                    {
+                        "type": "group1_alkali",
+                        "amount": 1
+                    },
+                    {
+                        "type": "monoprotic_acid",
+                        "amount": 1
+                    }
+                ],
+                "catalysts": [
+                ]
+            },
+            {
+                "name": "group1_metal_acid_redox",
+                "energy": 60,
+                "reactants": [
+                    {
+                        "type": "group1_metal",
+                        "amount": 2
+                    },
+                    {
+                        "type": "monoprotic_acid",
+                        "amount": 2
+                    }
+                ],
+                "catalysts": [
+                ]
+            },
+            {
+                "name": "group2_metal_acid_redox",
+                "energy": 40,
+                "reactants": [
+                    {
+                        "type": "group2_metal",
+                        "amount": 1
+                    },
+                    {
+                        "type": "monoprotic_acid",
+                        "amount": 2
+                    }
+                ],
+                "catalysts": [
+                ]
+            }
+        ]
+    }
+]
